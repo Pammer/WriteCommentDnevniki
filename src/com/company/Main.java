@@ -22,9 +22,9 @@ public class Main {
         System.setProperty("http.proxyPort", proxy[1]);*/
         Connection.Response res = null;
         try {
-            res = Jsoup.connect("http://id.ykt.ru/page/login").data("nick", "mikula")
+            res = Jsoup.connect("http://id.ykt.ru/page/login").data("nick", "nick kakoinit")
                     .method(Connection.Method.POST)
-                    .data("password", "mikulagpltitop09")
+                    .data("password", "pass ot etogo nika")
                     .data("mobile", "false")
                     .data("remember", "on")
                     .data("returnUrl", "http://dnevniki.ykt.ru/")
